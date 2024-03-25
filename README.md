@@ -1,7 +1,7 @@
 # demos
 ## install_spark.sh ---> Big Data example with Spark
 ## Test on a VPS with Ubuntu 22 or a virtual machine
-- Download : wget -O install_spark.sh https://github.com/emericjimenez/demos/blob/main/install_spark.sh
+- Download : wget -O install_spark.sh https://github.com/emericjimenez/demos/blob/main/install_spark.sh](https://raw.githubusercontent.com/emericjimenez/demos/main/install_spark.sh
 - Give permission: chmod +x install_spark.sh
 - Execute: ./install_spark.sh
 - Tested on Ubuntu 22.
