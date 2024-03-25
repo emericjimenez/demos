@@ -38,9 +38,6 @@ mv -f $DATASET /opt/spark/datasets/$DATASET
 cd /opt/spark/bin
 
 echo "from pyspark.sql import SparkSession" >$FILE_PY
-echo "import logging" >$FILE_PY
-echo "logger = spark._jvm.org.apache.log4j" >$FILE_PY
-echo "logger.LogManager.getLogger('org').setLevel(logger.Level.ERROR)" >$FILE_PY
 echo "spark = SparkSession.builder \\" >>$FILE_PY
 echo "    .appName('Lectura de Dataset') \\" >>$FILE_PY
 echo "    .getOrCreate()" >>$FILE_PY
