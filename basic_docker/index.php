@@ -6,8 +6,12 @@ if (isset($_POST["txtTest"]))
         $txtSend = $_POST["txtTest"];
             $txtSend = str_replace("\"", "", $txtSend);
 
-        if (!empty($txtSend)) {
-                $ip_local = $_SERVER['SERVER_ADDR'];
+        if (!empty($txtSend)) {                 
+                $file_ip = fopen("ip.txt", 'r');
+                $ip_local = fread($file_ip, filesize("ip.txt"));
+                fclose($file_ip);
+                
+                echo $ip_local;
 
                 $url = "http://".$ip_local.":9000/";
         $data = array(
