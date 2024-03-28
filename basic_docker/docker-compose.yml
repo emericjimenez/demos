@@ -12,3 +12,4 @@ services:
       - "80:80"
     volumes:
       - ./index.php:/var/www/html/index.php
+      - ./ip.txt:/var/www/html/ip.txt
