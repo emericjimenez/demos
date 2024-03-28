@@ -20,3 +20,4 @@
 - Install Docker
 - Run 1 container with Apache and an example page in PHP.
 - Run 1 container with uvicorn and a Python example using FastAPI to receive and return a response.
+![Basic Docker](https://github.com/emericjimenez/demos/blob/main/basic_docker.gif)
