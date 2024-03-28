@@ -8,12 +8,12 @@ if (isset($_POST["txtTest"]))
 
         if (!empty($txtSend)) {                 
                 $file_ip = fopen("ip.txt", 'r');
-                $ip_local = fread($file_ip, filesize("ip.txt"));
+                $ip_local = trim(fread($file_ip, filesize("ip.txt")));
                 fclose($file_ip);
                 
                 echo $ip_local;
 
-                $url = "http://".$ip_local.":9000/";
+                $url = "http://".trim($ip_local).":9000/";
         $data = array(
                 "send1" => $txtSend,
         );
