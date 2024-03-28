@@ -11,6 +11,8 @@
 - Create a Python Script that will display the Dataset.
 - Run the Script in the Spark environment.
 - Schemes, filtering of results and a select for 2 columns are shown regarding the filter used.
+- ----------------->
+![Install Spark](https://github.com/emericjimenez/demos/blob/main/install_spark.gif)
 
 ## basic_docker.sh ---> Basic Docker Example
 ## Test on a VPS with Ubuntu 22 or a Local Virtual Machine
@@ -20,4 +22,5 @@
 - Install Docker
 - Run 1 container with Apache and an example page in PHP.
 - Run 1 container with uvicorn and a Python example using FastAPI to receive and return a response.
+- ----------------->
 ![Basic Docker](https://github.com/emericjimenez/demos/blob/main/basic_docker.gif)
