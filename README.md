@@ -15,7 +15,7 @@
 ## basic_docker.sh ---> Basic Docker Example
 ## Test on a VPS with Ubuntu 22 or a Local Virtual Machine
 - Download : wget https://raw.githubusercontent.com/emericjimenez/demos/main/basic_docker.sh
-- Give permission: chmod +x basic_docker.sh
+- Give permission: sudo chmod +x basic_docker.sh
 - Execute: ./basic_docker.sh
 - Install Docker
 - Run 1 container with Apache and an example page in PHP.
