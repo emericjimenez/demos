@@ -17,8 +17,6 @@ ds_05="ds5.csv"
 dir_kafka=~/kafka
 code_py="code.py"
 
-killall python3 "$dir_kafka/$code_py"
-
 function file_exist() {
   if test -f "$1"; then
     return 0
