@@ -19,6 +19,7 @@
 - Run 1 container with zookeeper, kafka, postgres and cloudbeaver.
 - Run 2 run script python and send the new data to postgresql.
 - Run 3 monitor changes and when found run Fluent Bit to process the new data.
+
 ![Basic Kafka](https://github.com/emericjimenez/demos/blob/main/basic_kafka.gif)
 
 ## basic_docker.sh ---> Basic Docker Example
