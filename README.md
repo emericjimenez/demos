@@ -1,7 +1,8 @@
 # Script examples for automation
 ## Basic example to create pipelines, in this example for .csv files, it can be used in many ways, from IoT platforms to log collection.
 ## basic_kafka01.sh --> Create the environment and then cloudbeaver should be configured for the database.
-## basic_kafka02.sh --> Checks for new .csv files in the folder and processes them to reach postgresql.
+## basic_kafka02.sh --> Checks for new .csv files in the folder and processes them.
+## code.py It is responsible for sending the data to postgresql.
 - There will be 3 terminals connected to your VPS or your Virtual Machine with Ubuntu 22 via SSH.
 - Download 1 : wget https://raw.githubusercontent.com/emericjimenez/demos/main/basic_kafka01.sh
 - Download 2 : wget https://raw.githubusercontent.com/emericjimenez/demos/main/basic_kafka02.sh
