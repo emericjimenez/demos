@@ -1,5 +1,6 @@
 # Script examples for automation
-## Basic example to create pipelines, in this example for .csv files, it can be used in many ways, from IoT platforms to log collection.
+# 1.- Basic example to create pipelines
+## In this example for .csv files, it can be used in many ways, from IoT platforms to log collection.
 ## basic_kafka01.sh --> Create the environment and then cloudbeaver should be configured for the database.
 ## basic_kafka02.sh --> Checks for new .csv files in the folder and processes them.
 ## code.py It is responsible for sending the data to postgresql.
@@ -24,6 +25,7 @@
 
 ![Basic Kafka](https://github.com/emericjimenez/demos/blob/main/basic_kafka.gif)
 
+# 2.- Basic Docker Example 
 ## basic_docker.sh ---> Basic Docker Example
 ## Test on a VPS with Ubuntu 22 or a Local Virtual Machine
 - Download : wget https://raw.githubusercontent.com/emericjimenez/demos/main/basic_docker.sh
@@ -35,6 +37,7 @@
 - ----------------->
 ![Basic Docker](https://github.com/emericjimenez/demos/blob/main/basic_docker.gif)
 
+# 3.- Basic Spark Example
 ## install_spark.sh ---> Big Data example with Spark
 ## Test on a VPS with Ubuntu 22 or a Local Virtual Machine
 - Download : wget -O install_spark.sh https://raw.githubusercontent.com/emericjimenez/demos/main/install_spark.sh
