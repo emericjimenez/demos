@@ -1,17 +1,22 @@
 # Script examples for automation
+## Basic example to create pipelines, in this example for .csv files, it can be used in many ways, from IoT platforms to log collection.
 ## basic_kafka01.sh --> Create the environment and then cloudbeaver should be configured for the database.
-## basic_kafka02.sh --> Checks for new .csv files in the folder and processes them to reach cloudbeaver.
+## basic_kafka02.sh --> Checks for new .csv files in the folder and processes them to reach postgresql.
 - Download 1 : wget https://raw.githubusercontent.com/emericjimenez/demos/main/basic_kafka01.sh
 - Download 2 : wget https://raw.githubusercontent.com/emericjimenez/demos/main/basic_kafka02.sh
 - Give permission: sudo chmod +x basic_kafka01.sh
 - Give permission: sudo chmod +x basic_kafka02.sh
 - Execute: ./basic_kafka01.sh
 - Wait and when it finishes configure cloudbeaver with the following parameters:
--- cloudbeaver admin and password (your data)
-- Install Docker
-- Run 1 container with Apache and an example page in PHP.
-- Run 1 container with uvicorn and a Python example using FastAPI to receive and return a response.
-
+-- Cloudbeaver set admin and password (your data).
+-- Create a new connection for postgresql (example in the video).
+-- Set postgresql--> database = postgresdb, host, user and password = postgres (example in the video).
+-- Create schema and table from createdb.sql file (example in the video).
+- Execute: ./basic_kafka02.sh
+- Please wait and then check cloudbeaver for the new data. 
+- Run 1 container with zookeeper, kafka, postgres and cloudbeaver.
+- Run 2 monitor changes and when found run Fluent Bit to send the new data to postgresql.
+![Basic Kafka](https://github.com/emericjimenez/demos/blob/main/basic_kafka.gif)
 
 ## basic_docker.sh ---> Basic Docker Example
 ## Test on a VPS with Ubuntu 22 or a Local Virtual Machine
@@ -20,7 +25,7 @@
 - Execute: ./basic_docker.sh
 - Install Docker
 - Run 1 container with Apache and an example page in PHP.
-- Run 1 container with uvicorn and a Python example using FastAPI to receive and return a response.
+- Run 2 container with uvicorn and a Python example using FastAPI to receive and return a response.
 - ----------------->
 ![Basic Docker](https://github.com/emericjimenez/demos/blob/main/basic_docker.gif)
 
