@@ -25,7 +25,7 @@
 
 ![Basic Kafka](https://github.com/emericjimenez/demos/blob/main/basic_kafka.gif)
 
-# 2.- Basic Docker Example 
+# 2.- Basic Docker Example (PHP <-> FastAPI) 
 ## basic_docker.sh ---> Basic Docker Example
 ## Test on a VPS with Ubuntu 22 or a Local Virtual Machine
 - Download : wget https://raw.githubusercontent.com/emericjimenez/demos/main/basic_docker.sh
