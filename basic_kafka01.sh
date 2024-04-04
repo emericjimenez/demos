@@ -35,9 +35,9 @@ pip install --user psycopg2-binary
 mkdir $dir_kafka
 cd $dir_kafka
 
-cp $url_code_py "$dir_kafka/$code_py"
-cp $url_docker_cp "$dir_kafka/$docker_cp"
-cp $url_fluent "$dir_kafka/$fluent"
+wget $url_code_py
+wget $url_docker_cp
+wget $url_fluent
 
 #----------->DOCKER COMPOSE
 sudo docker-compose up
