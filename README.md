@@ -23,7 +23,8 @@
 - Run 2 run script python and send the new data to postgresql.
 - Run 3 monitor changes and when found run Fluent Bit to process the new data.
 
-![Basic Kafka](https://github.com/emericjimenez/demos/blob/main/basic_kafka.gif)
+![Basic Kafka](https://github.com/emericjimenez/demos/blob/main/basic_kafka/basic_kafka.gif)
+
 
 # 2.- Basic Docker Example (PHP <-> FastAPI) 
 ## basic_docker.sh ---> Basic Docker Example
@@ -35,7 +36,7 @@
 - Run 1 container with Apache and an example page in PHP.
 - Run 2 container with uvicorn and a Python example using FastAPI to receive and return a response.
 - ----------------->
-![Basic Docker](https://github.com/emericjimenez/demos/blob/main/basic_docker.gif)
+![Basic Docker](https://github.com/emericjimenez/demos/blob/main/basic_docker/basic_docker.gif)
 
 # 3.- Basic Spark Example
 ## install_spark.sh ---> Big Data example with Spark
