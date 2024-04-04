@@ -3,9 +3,9 @@
 primera_ip=$(hostname -I | cut -d ' ' -f 1)
 echo "Para configurar: http://$primera_ip:8080"
 
-url_code_py="/home/emeric/compartida/basic_kafka/code.py"
-url_docker_cp="/home/emeric/compartida/basic_kafka/docker-compose.yml"
-url_fluent="/home/emeric/compartida/basic_kafka/fluent-bit.conf"
+url_code_py="https://raw.githubusercontent.com/emericjimenez/demos/main/basic_kafka/code.py"
+url_docker_cp="https://raw.githubusercontent.com/emericjimenez/demos/main/basic_kafka/docker-compose.yml"
+url_fluent="https://raw.githubusercontent.com/emericjimenez/demos/main/basic_kafka/fluent-bit.conf"
 code_py="code.py"
 docker_cp="docker-compose.yml"
 fluent="fluent-bit.conf"
