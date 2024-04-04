@@ -1,4 +1,17 @@
 # Script examples for automation
+## basic_kafka01.sh --> Create the environment and then cloudbeaver should be configured for the database.
+## basic_kafka02.sh --> Checks for new .csv files in the folder and processes them to reach cloudbeaver.
+- Download 1 : wget https://raw.githubusercontent.com/emericjimenez/demos/main/basic_kafka01.sh
+- Download 2 : wget https://raw.githubusercontent.com/emericjimenez/demos/main/basic_kafka02.sh
+- Give permission: sudo chmod +x basic_kafka01.sh
+- Give permission: sudo chmod +x basic_kafka02.sh
+- Execute: ./basic_kafka01.sh
+- Wait and when it finishes configure cloudbeaver with the following parameters:
+-- cloudbeaver admin and password (your data)
+- Install Docker
+- Run 1 container with Apache and an example page in PHP.
+- Run 1 container with uvicorn and a Python example using FastAPI to receive and return a response.
+
 
 ## basic_docker.sh ---> Basic Docker Example
 ## Test on a VPS with Ubuntu 22 or a Local Virtual Machine
