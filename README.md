@@ -1,5 +1,5 @@
 # -----> Script examples for automation <-----
-# 1.- Basic example to create pipelines
+# 1.- Basic example to create pipelines with Kafka
 ## In this example for .csv files, it can be used in many ways, from IoT platforms to log collection.
 ## basic_kafka01.sh --> Create the environment and then cloudbeaver should be configured for the database.
 ## basic_kafka02.sh --> Checks for new .csv files in the folder and processes them.
