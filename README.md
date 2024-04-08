@@ -18,7 +18,7 @@ The ia_detect folder contains:
 - test_texts.rar (contains text and value indicating whether it was generated or not).
 - train_full.rar (contains results from Pipeline Feature Engineering).
 - ai_detect.mp4 (instructional video).
-![Basic Pipeline](https://github.com/emericjimenez/demos/blob/main/ai_detect/ai_detect.gif)
+![Basic Pipeline](https://github.com/emericjimenez/demos/blob/main/ai_detect/ai%20detect.gif)
 
 # 2.- Basic example to create pipelines with Kafka
 ## In this example for .csv files, it can be used in many ways, from IoT platforms to log collection.
