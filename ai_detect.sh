@@ -32,7 +32,7 @@ userDir=~/dockerai
 ip_address=$(hostname -I)
 ip=($ip_address)
 echo "$ip">ip.txt
-
+echo "page link http://$ip"
 wget $requirements
 wget $xg_model
 wget $main
@@ -40,4 +40,3 @@ wget $index
 wget $docker
 wget $dockeryml
 sudo docker-compose up
-echo "page link http://$ip"
