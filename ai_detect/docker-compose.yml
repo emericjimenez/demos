@@ -1,0 +1,15 @@
+version: '2.2'
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9000:9000"
+  web:
+    image: php:apache
+    ports:
+      - "80:80"
+    volumes:
+      - ./index.php:/var/www/html/index.php
+      - ./ip.txt:/var/www/html/ip.txt
