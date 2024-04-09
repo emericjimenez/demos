@@ -3,6 +3,8 @@
 
 You can use the ai_detect.sh script to automate the process, the script takes care of installing and activating the necessary components to show the operation, tested on Ubuntu 22 (VPS or VM).
 
+Online Demo: https://robotsartificiales.com/detect.php
+
 Video: ![Download Instructional Video](https://raw.githubusercontent.com/emericjimenez/demos/main/ai_detect/ai%20detect.mp4)
 
 - wget "https://raw.githubusercontent.com/emericjimenez/demos/main/ai_detect.sh"
