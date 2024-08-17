@@ -46,6 +46,7 @@ The ia_detect folder contains:
 <section id="02">
  <h2>2.- Basic example to create pipelines with Kafka.</h2>
 </section>
+
 ## In this example for .csv files, it can be used in many ways, from IoT platforms to log collection.
 ## basic_kafka01.sh --> Create the environment and then cloudbeaver should be configured for the database.
 ## basic_kafka02.sh --> Checks for new .csv files in the folder and processes them.
@@ -74,6 +75,7 @@ The ia_detect folder contains:
 <section id="03">
  <h2>3.- Basic Docker Example (PHP <-> FastAPI).</h2>
 </section> 
+
 ## basic_docker.sh ---> Basic Docker Example
 ## Test on a VPS with Ubuntu 22 or a Local Virtual Machine
 - Download : wget https://raw.githubusercontent.com/emericjimenez/demos/main/basic_docker.sh
@@ -88,6 +90,7 @@ The ia_detect folder contains:
 <section id="04">
  <h2>4.- Basic Spark Example.</h2>
 </section> 
+
 ## install_spark.sh ---> Big Data example with Spark
 ## Test on a VPS with Ubuntu 22 or a Local Virtual Machine
 - Download : wget -O install_spark.sh https://raw.githubusercontent.com/emericjimenez/demos/main/install_spark.sh
