@@ -3,6 +3,7 @@
 <nav>
   <ul>
     <li><a href="https://github.com/emericjimenez/demos/tree/main/chat_translator">1.- Translate speech to text from Spanish to English and generate response in English (basic version).</a></li>    
+    <li><a href="https://github.com/emericjimenez/demos/tree/main/models">2.- Example of the use of pre-trained models: Voice to Text, Remove image background, Language (text) translator and Summarize texts in several languages.</a></li>        
   </ul>
 </nav>
 
